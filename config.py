@@ -36,7 +36,7 @@ class Config(object):
     # digital_botz client config
     API_ID = os.environ.get("API_ID", "30775734")
     API_HASH = os.environ.get("API_HASH", "b7d8ccaedaac68008d12e3ee7f5ae867")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8566325870:AAHmIYIKfYeCv_etuhLSQSA2gXJJBHLy6oM") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7904714295:AAEsI6PYxcHuDPKJBZr2Cuvv4JFGnhqJUFk") 
     BOT = None
 
     # premium account string session required 😢 
@@ -48,11 +48,11 @@ class Config(object):
  
     # other configs
     RKN_PIC = os.environ.get("RKN_PIC", "https://graph.org/file/c0852fbd43f02fe452e59-e595735fae5005a299.jpg")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7575574860').split()]
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003569385777"))
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5654093580').split()]
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003415762728"))
 
     # free upload limit 
-    FREE_UPLOAD_LIMIT = 6442450944 # calculation 6*1024*1024*1024=results
+    FREE_UPLOAD_LIMIT = 5654093580 # calculation 6*1024*1024*1024=results
 
     # premium mode feature ✅
     UPLOAD_LIMIT_MODE = True 
@@ -60,9 +60,9 @@ class Config(object):
     
     #force subs
     try:
-        FORCE_SUB = int(os.environ.get("FORCE_SUB", "Ronituniverse")) 
+        FORCE_SUB = int(os.environ.get("FORCE_SUB", "Hotvking")) 
     except:
-        FORCE_SUB = os.environ.get("FORCE_SUB", "Ronituniverse")
+        FORCE_SUB = os.environ.get("FORCE_SUB", "Hotvking")
         
     # wes response configuration     
     PORT = int(os.environ.get("PORT", "8080"))
